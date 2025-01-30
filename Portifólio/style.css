@@ -42,7 +42,8 @@ body {
 
 .navbar {
   padding: 1.375rem;
-  position: fixed !important;
+  width: 100%;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -86,13 +87,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  gap: 1.25rem;
+  gap: 1.375rem;
 }
 
 .navbar > .nav-links li a {
   display: flex;
   font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", serif;
-  font-size: 14px;
+  font-size: 14.5px;
   font-weight: 400;
   font-style: normal;
   text-wrap: nowrap;
@@ -267,7 +268,6 @@ main {
 @media only screen and (max-width: 600px) {
   .navbar {
     padding: 1rem;
-    background-color: var(--bg-color);
   }
 
   .nav-links {
