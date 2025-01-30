@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* IMPORT URL - FONTES*/
+/* IMPORT URL - FONTES */
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 * {
@@ -35,7 +35,7 @@ html {
 }
 
 body {
-  overflow-x: hidden;
+  overflow: hidden;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -209,8 +209,8 @@ main {
 }
 
 .profile-image img {
-  width: 100%;
-  max-height: 400px;
+  width: auto;
+  max-height: 500px;
   object-fit: cover;
   border-radius: 50%;
   border: 1px solid var(--border-color);
@@ -315,5 +315,5 @@ main {
 }
 
 .profile-image {
-  animation-delay: 0.2s;
+  animation-delay: 0.4s;
 }
