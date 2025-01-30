@@ -16,7 +16,7 @@
   -webkit-text-size-adjust: 100% !important;
   text-rendering: optimizeLegibility !important;
   -moz-osx-font-smoothing: grayscale !important;
-  -webkit-font-smoothing: antialiased !important;
+  -webkit-font-smoothing: antialiased !important
 }
 
 :root {
