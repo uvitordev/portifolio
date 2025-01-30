@@ -6,23 +6,23 @@
   border: 0;
   margin: 0;
   padding: 0;
-  outline: none;
-  list-style: none;
-  user-select: none;
-  text-decoration: none;
-  box-sizing: border-box;
-  -webkit-user-drag: none;
-  font-synthesis: none;
-  -webkit-text-size-adjust: 100%;
-  text-rendering: optimizeLegibility;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased
+  outline: none !important;
+  list-style: none !important;
+  user-select: none !important;
+  font-synthesis: none !important;
+  text-decoration: none !important;
+  box-sizing: border-box !important;
+  -webkit-user-drag: none !important;
+  -webkit-text-size-adjust: 100% !important;
+  text-rendering: optimizeLegibility !important;
+  -moz-osx-font-smoothing: grayscale !important;
+  -webkit-font-smoothing: antialiased !important;
 }
 
 :root {
   --bg-color: rgb(10, 10, 10);
   --nav-color: rgb(4, 4, 4);
-  --border-color: rgb(41, 41, 46);
+  --border-color: #f1f1f117;
   --h1-nav-color: rgba(214, 214, 220, 0.776);
   --h1-hover-nav-color: rgb(128, 179, 255);
   --li-nav-color: rgba(214, 214, 220, 0.757);
@@ -31,11 +31,10 @@
 }
 
 html {
-  background-color: var(--bg-color);
+  background-color: var(--nav-color);
 }
 
 body {
-  overflow-x: hidden;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -43,7 +42,7 @@ body {
 
 .navbar {
   padding: 1.375rem;
-  position: fixed;
+  position: fixed !important;
   top: 0;
   left: 0;
   right: 0;
@@ -51,7 +50,7 @@ body {
   align-items: center;
   justify-content: center; /* space-between */
   text-align: center;
-  background-color: var(--nav-color);
+  background-color: var(--bg-color);
   border: 1px solid var(--border-color);
   z-index: 1000;
 }
@@ -210,7 +209,7 @@ main {
 
 .profile-image img {
   width: auto;
-  max-height: 500px;
+  max-height: 400px;
   object-fit: cover;
   border-radius: 50%;
   border: 1px solid var(--border-color);
@@ -282,7 +281,6 @@ main {
     left: 0;
     right: 0;
     z-index: 100;
-    background-color: var(--nav-color);
   }
 
   .nav-links li {
