@@ -6,17 +6,14 @@
   border: 0;
   margin: 0;
   padding: 0;
-  outline: none !important;
-  list-style: none !important;
-  user-select: none !important;
-  font-synthesis: none !important;
-  text-decoration: none !important;
-  box-sizing: border-box !important;
-  -webkit-user-drag: none !important;
-  -webkit-text-size-adjust: 100% !important;
-  text-rendering: optimizeLegibility !important;
-  -moz-osx-font-smoothing: grayscale !important;
-  -webkit-font-smoothing: antialiased !important
+  list-style: none;
+  font-synthesis: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  -webkit-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased
 }
 
 :root {
